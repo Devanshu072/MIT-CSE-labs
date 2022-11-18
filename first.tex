@@ -1,0 +1,37 @@
+
+\documentclass[a4paper,12pt]{article}
+\usepackage[style=authoryear]{biblatex}
+\begin{document}
+
+\title{My First Document}
+\author{Devanshu singh}
+\date{\today}
+\maketitle
+A Sentece of text.
+\section{Introduction}
+This is the introduction.
+
+\section{Methods}
+\subsection{Stage 1}
+\label{sec1}
+The first part of the methods.
+\subsection{Stage 2}
+The second part of the methods.
+\section{Results}
+Here are my results.
+\pagenumbering{roman}
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+ Referring to section \ref{sec1} on page \pageref{sec1}
+
+
+	\bibliographystyle{unsrt}
+	\bibliography{first}
+	the asd asd \cite{latex2e} is very good
+	
+
+
+\end{document}
+
